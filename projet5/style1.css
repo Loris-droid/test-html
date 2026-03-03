@@ -1,0 +1,97 @@
+/* =========================
+   STYLE GENERAL DE LA PAGE
+   ========================= */
+
+/* Sélecteur de type : s'applique à toute la page */
+body {
+    background-color: black;      /* fond sombre */
+    color: white;                 /* texte clair */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* =========================
+   TITRES
+   ========================= */
+
+/* Sélecteur de type */
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Sélecteur de type */
+h2 {
+  color: #ff3c38;
+  margin: 20px;
+}
+
+/* =========================
+   MENU (sélecteur par ID)
+   ========================= */
+
+#menu {
+  background-color: #111;
+  padding: 15px;
+}
+
+#menu ol {
+list-style-type: none;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+  color: red
+}
+
+/* =========================
+   PARAGRAPHES ET LISTES
+   ========================= */
+
+p {
+  margin-top: 15px; 
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+ul, ol {
+    margin-left: 60px;
+}
+
+/* =========================
+   TABLEAU
+   ========================= */
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+th, td {
+  border: 1px solid white;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: red; 
+}
+
+/* =========================
+   IMAGE
+   ========================= */
+
+img {
+    width: 250px;
+    border: 2px solid red;
+}
+
+figure {
+  text-align: center;
+}
