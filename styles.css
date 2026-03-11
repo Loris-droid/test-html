@@ -1,0 +1,61 @@
+body {
+    font-family: 'Delius Swash Caps', Arial, sans-serif;
+    background-color: #D7F5F7;  /* A changer car ne se voit pas très bien */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #EDE3CE;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+  font-family: 'Chewy', sans-serif; 
+    color: white;
+    margin-bottom: 10px;
+}
+
+.question-block {
+    background-color: #BBFAFC;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.question-block h2 {
+  font-family: 'Chewy', sans-serif; /* A voir */
+    font-size: 1.5em;
+    color: #9D7153; /* A voir */
+}
+
+.question-block p {
+  font-family: 'Arial', Arial, sans-serif; 
+    font-size: 1.2em;
+    color: #9D7153;
+}
+
+.question-block ul {
+  font-family: 'Arial', Arial, sans-serif; 
+  font-size: 1.2em;
+  color: #9D7153;
+}
+
+.question-block ol {
+  font-family: 'Arial', Arial, sans-serif; 
+  font-size: 1.2em;
+  color: #9D7153;
+}
+
+.question-block strong {
+    color: #6f4b33; /* A voir */
+}
+
+.question-block:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
