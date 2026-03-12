@@ -33,3 +33,12 @@ form{
 .bouton_yen:hover{
       background-color: darkred;
 }
+.bouton{
+    position:absolute;
+    top:15px;
+    left:15px;
+}
+
+.bouton img{
+    width:40px;;
+}

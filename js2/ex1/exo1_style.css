@@ -19,4 +19,12 @@ h1 {
   margin-bottom: 10px;
   position: relative; /* Obligatoire pour style.left dans js */
 }
+.bouton{
+    position:absolute;
+    top:15px;
+    left:15px;
+}
 
+.bouton img{
+    width:40px;;
+}
