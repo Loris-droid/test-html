@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exo1_style.css">
+  <script src="exo1_js.js" charset="utf-8" defer="defer"></script>
+  <title>Exo1 : Jeu de réflexe</title>
+</head>
+
+<body>
+  <h1> Teste tes réflexes</h1> 
+  
+  <form>   <!-- Formulaire contenant un bouton poussoir -->
+    <input class="depart" type="button" value="GO" onClick="depart_aleatoire()">
+  </form>
+  <input class="arret" type="button" value="STOP" onClick="stop_deplacement()">
+  <input class="restart" type="button" value="RECOMMENCER" onClick="recommencer()">
+  <p>
+    <img class="trot" src="trottinette.png" alt="Une image de trottinette" /><br>
+  </p>
+  
+  <p id="reflexe">  </p>
+
+</body>
+  
+</html>  

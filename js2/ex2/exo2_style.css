@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #1e1e2f;
+    color: white;
+}
+
+button {
+    background: #ffcc00;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ffdd33;
+}
+
+
+
+.cachee {
+    display: none;
+}
+
+.motCache {
+    color: #1e1e2f; 
+}
+
+.erreur {
+    color: red;
+    font-weight: bold;
+}

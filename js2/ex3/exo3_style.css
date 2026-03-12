@@ -1,0 +1,35 @@
+div {
+  margin: 1rem;
+}
+
+form{
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px ridge purple;
+  text-align: center;
+}
+
+.bouton_dollar{
+  color: #fff;
+  background-color: green;
+  bottom : 20px;
+}
+.bouton_dollar:hover{
+      background-color: darkgreen;
+}
+.bouton_livre{
+  color: #fff;
+  background-color: blue;
+  bottom : 20px;
+}
+.bouton_livre:hover{
+      background-color: darkblue;
+}
+.bouton_yen{
+  color: #fff;
+  background-color: red;
+  bottom : 20px;
+}
+.bouton_yen:hover{
+      background-color: darkred;
+}

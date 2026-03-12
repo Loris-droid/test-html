@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exo2_style.css">
+  <script src="exo2_js.js" charset="utf-8" defer="defer"></script>
+  <title>Exo2 : Escape Game 🔐</title>
+</head>
+
+<body>
+ <h1>🔐 Escape Game Numérique 🕵️‍♂️</h1>
+    <br>
+  <p id="tempsRestant">⏳ Temps restant : <span id="compteur">60</span> secondes</p> <br>
+
+  <form id="formulaireEscapeGame">
+      
+      <!-- Question 1 -->
+      <div id="question1">
+         <label for="reponse1">🔎 **Énigme 1** : Trouve le mot caché dans cette phrase : <br> <br>
+         Le ciel est AZUR clair et sans nuage<span class="motCache">LUMOS</span></label>
+         <input type="text" id="reponse1"><br><br>
+         <button type="button" id="valider1">Valider</button> <br><br>
+         <p class="erreur" id="erreur1"></p>
+      </div>
+
+      <!-- Question 2 (cachée au début) -->
+      <div class="cachee" id="question2">
+         <label for="reponse2">**Énigme 2** : 12 corbeaux sont alignés sur un fil électrique. Un chasseur tire sur l'avant dernier.<br> <br>
+         ** Combien en reste-t-il sur le fil ?**</label>
+         <input type="number" id="reponse2" value="6"><br><br>
+         <button type="button" id="valider2">Valider</button> <br><br>
+         <p class="erreur" id="erreur2"></p>
+       </div>
+    
+      <!-- Question 3 (cachée au début) -->
+      <div class="question cachee" id="question3">
+         <label for="reponse3"> **Énigme 3** : écris la solution </label>
+         <input type="text" id="reponse3"><br><br>
+         <button type="button" id="valider3">Valider</button><br><br>
+         <p class="erreur" id="erreur3"></p>
+      </div>
+    
+    <div class="cachee" id="question4">
+      <label>**Énigme 4** : La mascotte de Linux est :</label><br>
+      <select id="reponse4">
+        <option value="GROOT">GROOT</option>
+        <option value="TUX">TUX</option>
+        <option value="TUC">TUC</option>
+      </select><br><br>
+      <button type="button" id="valider4">Valider</button>
+      <p class="erreur" id="erreur4"></p>
+    </div>
+
+    <div class="cachee" id="question5">
+      <p>**Énigme 5** : Lequel est un langage de programmation ?</p>
+      <input type="radio" name="prog" value="CSS" id="r1"> <label for="r1">CSS</label>
+      <input type="radio" name="prog" value="PYTHON" id="r2"> <label for="r2">PYTHON</label>
+      <input type="radio" name="prog" value="HTML" id="r3"> <label for="r3">HTML</label>
+      <br><br>
+      <button type="button" id="valider5">Valider</button>
+      <p class="erreur" id="erreur5"></p>
+    </div>
+    
+      <!-- Bouton final (caché au début) -->
+      <button type="button" id="boutonFinal" class="cachee">🔓 Déverrouiller la sortie</button>
+
+    </form>
+
+    <!-- Messages de fin -->
+    <p id="messageReussite" class="cachee">🎉 Bravo ! Tu as réussi à t'échapper ! 🎉</p>
+    <p id="messageEchec" class="cachee">⏳ Temps écoulé... Tu es resté enfermé 😢</p>
+    
+</body>
+</html>

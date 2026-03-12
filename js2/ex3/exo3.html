@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exo3_style.css">
+  <script src="exo3_js.js" charset="utf-8" defer="defer"></script>
+  <title>Exo 3 : convertisseur de monnaie</title>
+</head>
+<body> 
+  <header>
+    <h1> Convertisseur de monnaie </h1>
+  </header>
+  
+  <form>
+    <div>
+      <label for="somme">Saisir la somme en euro : </label>
+      <input type="number" name="somme" id="somme">
+      <input type="reset" value="Réinitialiser">
+    </div>
+    <div>
+      <h3>Choisir votre monnaie</h3>		 
+      <input class="bouton_dollar" type="button" value="Convertir en dollar" onClick="dollar()">
+      <input class="bouton_livre" type="button" value="Convertir en livre sterling" onClick="livre()">
+      <input class="bouton_yen" type="button" value="Convertir en yen" onClick="yen()">
+    </div>
+  </form>
+  
+  <div id="conversion">  
+    Résultat de la conversion : 
+  </div> 
+  
+</body>
+</html>
