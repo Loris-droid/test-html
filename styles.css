@@ -1,13 +1,13 @@
 body {
     font-family: 'Delius Swash Caps', Arial, sans-serif;
-    background-color: #D7F5F7;  /* A changer car ne se voit pas très bien */
+    background-color: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
 header {
-    background-color: #EDE3CE;
+    background-color: #000000;
     padding: 10px;
     text-align: center;
 }
@@ -19,7 +19,7 @@ header h1 {
 }
 
 .question-block {
-    background-color: #BBFAFC;
+    background-color: #eaf6f7;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -28,9 +28,9 @@ header h1 {
 }
 
 .question-block h2 {
-  font-family: 'Chewy', sans-serif; /* A voir */
+  font-family: 'Chewy', sans-serif; 
     font-size: 1.5em;
-    color: #9D7153; /* A voir */
+    color: #9D7153; 
 }
 
 .question-block p {
@@ -52,7 +52,7 @@ header h1 {
 }
 
 .question-block strong {
-    color: #6f4b33; /* A voir */
+    color: #6f4b33; 
 }
 
 .question-block:hover {
