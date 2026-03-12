@@ -4,3 +4,12 @@ img {
   height: 50px;
   border: 10px ridge black;
 }
+.bouton{
+    position:absolute;
+    top:15px;
+    left:15px;
+}
+
+.bouton img{
+    width:40px;;
+}
