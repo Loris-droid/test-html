@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exo2_style.css">
+  <title>Exo 2 : Le plus beau</title>
+</head>
+<body>
+    <p id="monPara">Je suis le paragraphe qui va subir les modifications.</p>
+    <p class="rouge">Je suis un autre paragraphe. J'appartiens à la classe "rouge" et le css me permet d'être le plus beau car je suis affiché en rouge.</p>
+    <p class="vert">Je suis un troisième paragraphe. J'appartiens à la classe "verte" et le paragraphe précédent a raison, je suis vert.</p>
+<button onclick="foncRouge()">Rouge</button> 
+<button onclick="foncVert()">Vert</button>
+    <!-- position 1 -->
+        
+    <script>
+      // position 2
+      let monPara = document.getElementById("monPara"); 
+monPara.classList.add("rouge");
+    function foncRouge() {
+	monPara.classList.remove("vert");
+	monPara.classList.add("rouge"); 
+    monPara.innerHTML = "Maintenant, c'est moi le plus beau !"
+}      
+  function foncVert() { 
+  monPara.classList.remove("rouge"); 
+  monPara.classList.add("vert");
+}
+    </script>
+  
+  </body>
+</html>
