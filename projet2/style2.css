@@ -12,3 +12,12 @@ canvas {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
+.bouton{
+    position:absolute;
+    top:15px;
+    left:15px;
+}
+
+.bouton img{
+    width:40px;;
+}
