@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   
     // Gestion du timer
-    let tempsRestant = 10000;
+    let tempsRestant = 60;
     const compteur = document.getElementById("compteur");
 
     const timer = setInterval(function () {
