@@ -8,7 +8,8 @@
   margin:0;
 }
 .bouton{
-    position:absolute;
+    position:right;
+    margin-left: auto;
     top:15px;
     left:15px;
 }

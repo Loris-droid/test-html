@@ -5,7 +5,8 @@
   color: green;
 }
 .bouton{
-    position:absolute;
+    position:left;
+    margin:left;
     top:15px;
     left:15px;
 }
